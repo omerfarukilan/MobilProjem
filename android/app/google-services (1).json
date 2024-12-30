@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "436783850977",
+    "project_id": "halisahasistemi",
+    "storage_bucket": "halisahasistemi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436783850977:android:a079c0ace3c0dbe00e9ea0",
+        "android_client_info": {
+          "package_name": "com.example.randevu_sistemi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEmv8lIBWkOzgfjtmbDzfMopPe7Go3GUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
