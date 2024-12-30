@@ -4,3 +4,11 @@
 *.cpp linguist-detectable=false
 *.c linguist-detectable=false
 build/* linguist-vendored
+# Dart dosyalarını dil algılamasında öncelikli yap
+*.dart linguist-detectable=true
+
+# CMake ve diğer dosyaları dil algılamasından hariç tut
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-detectable=false
+*.h linguist-detectable=false
+*.cpp linguist-detectable=false
