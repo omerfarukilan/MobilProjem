@@ -1,8 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:randevu_sistemi/auth/moduls/home/home_view.dart';
-import 'package:randevu_sistemi/login_register/login_view.dart';
-import 'package:randevu_sistemi/login_register/register_view.dart';
+import 'package:randevu_sistemi/auth/moduls/yonetici/adminAnaEkran.dart';
+import 'package:randevu_sistemi/auth/moduls/yonetici/anaEkran.dart';
+import 'package:randevu_sistemi/auth/moduls/yonetici/yoneticiGiris.dart';
+import 'package:randevu_sistemi/giris_kayit/girisEkrani.dart';
+import 'package:randevu_sistemi/giris_kayit/kayitEkrani.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -27,10 +29,12 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const LoginView(),
-        '/register': (context) => const RegisterView(),
-        '/home-view': (context) => const HomeView(),
-        '/login-view': (context) => const LoginView(), // Login ekranı rotası
+        '/': (context) => const GirisEkrani(),
+        '/KayitEkrani': (context) => const KayitEkrani(),
+        '/AnaEkran': (context) => const AnaEkran(),
+        '/GirisEkrani': (context) => const GirisEkrani(),
+        '/YoneticiEkrani': (context) => const YoneticiGiris(),
+        '/AdminAnaEkrani': (context) => const AdminAnaEkran()
       },
     );
   }
