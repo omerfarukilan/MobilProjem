@@ -63,6 +63,11 @@ class _KayitEkraniState extends State<KayitEkrani> {
 
   BoxDecoration _boxDecoration() {
     return const BoxDecoration(
+      image: DecorationImage(
+        image: AssetImage(
+            'assets/images/depositphotos_392760248-stock-photo-green-grass-texture-sport-background.jpg'),
+        fit: BoxFit.cover, // Arka planın tüm alanı kaplamasını sağlar
+      ),
       gradient: LinearGradient(
         colors: [Colors.yellow, Colors.deepPurple],
         begin: Alignment.topCenter,
@@ -70,8 +75,14 @@ class _KayitEkraniState extends State<KayitEkrani> {
     );
   }
 
-  FlutterLogo _logo() {
-    return const FlutterLogo(size: 100);
+  Widget _logo() {
+    return SizedBox(
+      height: 150,
+      child: Image.asset(
+        'assets/images/wpLogo.png',
+        fit: BoxFit.contain,
+      ),
+    );
   }
 
   RandevuTextfield _emailTextField() {
@@ -128,7 +139,7 @@ class _KayitEkraniState extends State<KayitEkrani> {
       child: const Text(
         "Giriş Yap",
         style: TextStyle(
-          color: Color.fromARGB(255, 0, 0, 0),
+          color: Color.fromARGB(255, 255, 255, 255),
           fontSize: 16,
           fontWeight: FontWeight.bold,
         ),

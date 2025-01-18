@@ -58,6 +58,11 @@ class _GirisEkraniState extends State<GirisEkrani> {
 
   BoxDecoration _boxDecoration() {
     return const BoxDecoration(
+      image: DecorationImage(
+        image: AssetImage(
+            'assets/images/depositphotos_392760248-stock-photo-green-grass-texture-sport-background.jpg'),
+        fit: BoxFit.cover, // Arka planın tüm alanı kaplamasını sağlar
+      ),
       gradient: LinearGradient(
         colors: [
           Color.fromARGB(255, 59, 188, 4),
@@ -68,8 +73,14 @@ class _GirisEkraniState extends State<GirisEkrani> {
     );
   }
 
-  FlutterLogo _logo() {
-    return const FlutterLogo(size: 100);
+  Widget _logo() {
+    return SizedBox(
+      height: 150,
+      child: Image.asset(
+        'assets/images/wpLogo.png',
+        fit: BoxFit.contain,
+      ),
+    );
   }
 
   RandevuTextfield _emailTextField() {
@@ -102,7 +113,7 @@ class _GirisEkraniState extends State<GirisEkrani> {
       child: const Text(
         "Kayıt Ol",
         style: TextStyle(
-          color: Color.fromARGB(255, 0, 0, 0),
+          color: Color.fromARGB(255, 255, 255, 255),
           fontSize: 16,
           fontWeight: FontWeight.bold,
         ),
@@ -116,7 +127,7 @@ class _GirisEkraniState extends State<GirisEkrani> {
       child: const Text(
         "Yönetici Girişi",
         style: TextStyle(
-          color: Color.fromARGB(255, 0, 0, 0),
+          color: Color.fromARGB(255, 255, 255, 255),
           fontSize: 16,
           fontWeight: FontWeight.bold,
         ),

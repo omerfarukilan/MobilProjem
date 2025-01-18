@@ -56,7 +56,7 @@ class _YoneticiGirisState extends State<YoneticiGiris> {
     return const BoxDecoration(
       gradient: LinearGradient(
         colors: [
-          Color.fromARGB(255, 18, 42, 255),
+          Color.fromARGB(255, 42, 251, 0),
           Color.fromARGB(255, 255, 255, 255),
         ],
         begin: Alignment.topCenter,
@@ -64,8 +64,14 @@ class _YoneticiGirisState extends State<YoneticiGiris> {
     );
   }
 
-  FlutterLogo _logo() {
-    return const FlutterLogo(size: 100);
+  Widget _logo() {
+    return SizedBox(
+      height: 150,
+      child: Image.asset(
+        'assets/images/wpLogo.png',
+        fit: BoxFit.contain,
+      ),
+    );
   }
 
   RandevuTextfield _emailTextField() {

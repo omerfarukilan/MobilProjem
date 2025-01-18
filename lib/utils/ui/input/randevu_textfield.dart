@@ -17,15 +17,20 @@ class RandevuTextfield extends StatelessWidget {
     return TextField(
       controller: textEditingController,
       keyboardType: keyboardType,
-      cursorColor: const Color.fromARGB(255, 0, 0, 0),
+      cursorColor: const Color.fromARGB(255, 255, 255, 255),
       obscureText: obscureText,
       decoration: InputDecoration(
           hintText: hintText,
+          hintStyle: TextStyle(
+            color: const Color.fromARGB(255, 255, 255, 255), // HintText rengi
+            fontSize: 14, // İsteğe bağlı: yazı boyutu
+          ),
           enabledBorder: const UnderlineInputBorder(
-            borderSide: BorderSide(color: Colors.black26),
+            borderSide: BorderSide(color: Color.fromARGB(255, 255, 255, 255)),
           ),
           focusedBorder: const UnderlineInputBorder(
-              borderSide: BorderSide(color: Color.fromARGB(255, 212, 0, 0)))),
+              borderSide:
+                  BorderSide(color: Color.fromARGB(255, 255, 255, 255)))),
     );
   }
 }
