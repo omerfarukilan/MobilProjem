@@ -12,7 +12,6 @@ class _AnaEkranState extends State<AnaEkran> {
   final AuthService _authService = AuthService();
   bool _isLoading = false;
 
-  // Rezervasyonları yükle
   Future<void> _rezervasyonlariYukle() async {
     setState(() {
       _isLoading = true;
@@ -43,7 +42,6 @@ class _AnaEkranState extends State<AnaEkran> {
 
   Future<void> rezervasyonYap(String saatId, String saat) async {
     try {
-      // Önce rezervasyonun müsait olup olmadığını kontrol et
       bool isDolu = await _authService.rezervasyonDurumKontrol(saatId);
       if (isDolu) {
         if (mounted) {

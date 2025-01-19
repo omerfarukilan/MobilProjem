@@ -14,7 +14,6 @@ class _AdminAnaEkranState extends State<AdminAnaEkran> {
 
   Future<void> _rezervasyonIptal(
       String saatId, Map<String, dynamic> rezervasyon) async {
-    // Rezervasyon iptal onayı al
     final onay = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
