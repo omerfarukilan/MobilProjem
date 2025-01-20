@@ -17,4 +17,4 @@ Birinci resim kullanıcın giriş yaparken kullandığı ekranı gösteriyor.
 ![mobil3](https://github.com/user-attachments/assets/632b3097-72f1-456a-b971-0fc8cbeb2de5)
 Üçüncü resim kullanıcının başka bir kullanıcı tarafından rezerve edilen saati ve rezervasyon yapabileceği saatleri gösteriyor.
 ![mobil4](https://github.com/user-attachments/assets/5ed3bc1a-6c6c-46d6-b1ac-53fe07de695b)
-Dördüncü resim ise yönetici panelinde yöneticin rezerve edilmiş ve edilmemiş saat dilimlerini gösteren aynı zamanda rezervasyon bilgilerini görüntüleyebildiği ve iptal edebildiği ekranı gösteriyor.
+Dördüncü resim ise yönetici panelinde yöneticiye rezerve edilmiş ve edilmemiş saat dilimlerini gösteren aynı zamanda rezervasyon bilgilerini görüntüleyebildiği ve iptal edebildiği ekranı gösteriyor.
