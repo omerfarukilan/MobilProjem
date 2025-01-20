@@ -1,10 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:randevu_sistemi/auth/moduls/yonetici/adminAnaEkran.dart';
-import 'package:randevu_sistemi/auth/moduls/yonetici/anaEkran.dart';
-import 'package:randevu_sistemi/auth/moduls/yonetici/yoneticiGiris.dart';
-import 'package:randevu_sistemi/giris_kayit/girisEkrani.dart';
-import 'package:randevu_sistemi/giris_kayit/kayitEkrani.dart';
+import 'package:randevu_sistemi/Screens/adminAnaEkran.dart';
+import 'package:randevu_sistemi/Screens/anaEkran.dart';
+import 'package:randevu_sistemi/Screens/yoneticiGiris.dart';
+import 'package:randevu_sistemi/Screens/girisEkrani.dart';
+import 'package:randevu_sistemi/Screens/kayitEkrani.dart';
 import 'firebase_options.dart';
 
 void main() async {
