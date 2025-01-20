@@ -9,10 +9,10 @@ Halısaha rezervasyon sistemi üzerine bir mobil uygulama tasarımı yaptık.Kul
 Proje Tanıtım Videosu yandaki linkte mevcut.
 https://www.youtube.com/watch?v=VkvePiQBALE
 
-mobil1 resmi kullanıcın giriş yaparken kullandığı ekranı gösteriyor.
-mobil2 resmi kullanıcın kayıt yaparken kullandığı ekranı gösteriyor.
-mobil3 resmi kullanıcının başka bir kullanıcı tarafından rezerve edilen saati ve rezervasyon yapabileceği saatleri gösteriyor.
-mobil4 resmi ise yönetici panelinde yöneticin rezerve edilmiş ve edilmemiş saat dilimlerini gösteren aynı zamanda rezervasyon bilgilerini görüntüleyebildiği ve iptal edebildiği ekranı gösteriyor.
+Birinci resim kullanıcın giriş yaparken kullandığı ekranı gösteriyor.
+İkinci resim kullanıcın kayıt yaparken kullandığı ekranı gösteriyor.
+Üçüncü resim kullanıcının başka bir kullanıcı tarafından rezerve edilen saati ve rezervasyon yapabileceği saatleri gösteriyor.
+Dördüncü resim ise yönetici panelinde yöneticin rezerve edilmiş ve edilmemiş saat dilimlerini gösteren aynı zamanda rezervasyon bilgilerini görüntüleyebildiği ve iptal edebildiği ekranı gösteriyor.
 
 ![mobi1](https://github.com/user-attachments/assets/3c6673dc-c75a-4557-8d21-5f482428b90d)
 ![mobil2](https://github.com/user-attachments/assets/b395ccfa-d251-497d-9321-44a93b619483)
